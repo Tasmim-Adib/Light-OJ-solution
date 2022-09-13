@@ -5,8 +5,8 @@ int main(){
 	int n,caseno = 0, arrSize, arr[20005],x,y,max;
 	long long sum;
 
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
+	//freopen("input.txt", "r", stdin);
+	//freopen("output.txt", "w", stdout);
 
 	cin >> n;
 	while(n--){
