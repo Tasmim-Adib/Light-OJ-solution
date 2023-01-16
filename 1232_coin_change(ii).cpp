@@ -31,7 +31,7 @@ int main(){
 					arr[i][j] = arr[i-1][j];
 				}
 				else{
-					arr[i][j] = arr[i-1][j] + arr[i][j - coins[i]] % 100000007;
+					arr[i][j] = (arr[i-1][j] + arr[i][j - coins[i]]) % 100000007;
 				}
 			}
 		}
