@@ -41,8 +41,8 @@ int bfs(int x){
 }
 int main(){
 
-	freopen("input.txt","r",stdin);
-	freopen("output.txt", "w", stdout);
+	//freopen("input.txt","r",stdin);
+	//freopen("output.txt", "w", stdout);
 
 	int test,caseno = 0;
 	cin >> test;
